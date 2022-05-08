@@ -102,5 +102,5 @@ A few additional constraints:
 * you must not use ***global variables***
 * You must make good use of ***functional decomposition***
 
-## Submission Score
+## Final Submission Score
 100%
