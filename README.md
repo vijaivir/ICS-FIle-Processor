@@ -87,3 +87,20 @@ A call to icsout3 will use identical arguments to that from the previous assignm
 ```
 
 ## Version 4 (Python)
+You are to complete the implementation of the class ICSout which will be contained in the file named icsout4.py. Unlike the three previous assignments, however, your own code will be called by a test-driver program named tester4.py.
+The two methods of the class ICSout that must be implemented are:
+* A constructor which takes a single parameter (i.e., the name of the ICS file)
+* A method named get_events_for_day which takes a datetime object as its single parameter. If the day corresponding to the parameter has events (i.e., were in the ICS file whose named was given to the object’s constructor), then the method returns a string with that day’s events formatted as required in previous assignments (including heading for date plus line of dashes). If the day corresponding to the parameter has no events, then None is returned by the method.
+
+A call to tester4.py will used identical arguments to that from the previous versions. For example:
+```
+./tester4.py --start=2021/01/24 --end=2021/4/15 --file=one.ics
+```
+A few additional constraints: 
+* you are not permitted to use any ***global variables*** 
+* You must use ***regular expressions***
+* you must not use ***global variables***
+* You must make good use of ***functional decomposition***
+
+## Submission Score
+100%
